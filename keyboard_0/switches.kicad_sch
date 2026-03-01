@@ -570,12 +570,6 @@
 		(uuid "08a74060-ba54-4c43-aac6-9e9f110fb5d4")
 	)
 	(junction
-		(at 228.6 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a732cc3-7c2c-4dcc-b07d-70c6050bedae")
-	)
-	(junction
 		(at 172.72 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1194,6 +1188,12 @@
 		(uuid "fa879596-eab3-4305-b1c7-14e593f8a3d5")
 	)
 	(junction
+		(at 228.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fac9b54a-3e4a-4a87-ba49-28c13df7c41a")
+	)
+	(junction
 		(at 109.22 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1403,16 +1403,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 231.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1750e4a4-6aa0-4f04-9cda-18c0e681dbd1")
-	)
-	(wire
-		(pts
 			(xy 210.82 44.45) (xy 210.82 58.42)
 		)
 		(stroke
@@ -1450,16 +1440,6 @@
 			(type default)
 		)
 		(uuid "1e5ff020-57a9-48c9-adb4-b2162e3f5f61")
-	)
-	(wire
-		(pts
-			(xy 241.3 86.36) (xy 231.14 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21fb924f-00ae-4868-a9ab-d5b3c9de9a25")
 	)
 	(wire
 		(pts
@@ -1730,16 +1710,6 @@
 			(type default)
 		)
 		(uuid "5cbffd90-6fce-4f93-ab1e-7a6152d5abf6")
-	)
-	(wire
-		(pts
-			(xy 231.14 68.58) (xy 228.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614f9d9e-dd26-4c4d-99c6-758c2264c428")
 	)
 	(wire
 		(pts
@@ -2493,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 86.36) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f159ada8-58da-4f86-a55b-0e7d625b6c5c")
+	)
+	(wire
+		(pts
 			(xy 83.82 92.71) (xy 83.82 110.49)
 		)
 		(stroke
@@ -3045,10 +3025,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc13275a-17d6-4a87-8b7b-a3d2e5972d57")
+			(uuid "e08b4444-d3bb-4ea0-9964-0ca8d6663514")
 		)
 		(pin "2"
-			(uuid "011b59e5-0cbd-4b5a-84f3-1df94dcb9d0b")
+			(uuid "c1ede125-11a2-4d1b-85f9-406878d16cf9")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3139,10 +3119,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56d73e81-dacb-4fbe-bf7c-84db7538213c")
+			(uuid "c7e2af7f-eebd-4ed2-a684-96f6ec5ab9a8")
 		)
 		(pin "2"
-			(uuid "393e7607-4d4d-439a-8327-2deddf095742")
+			(uuid "a3cf0d64-c0e8-4291-8460-653d64a2ecf8")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3233,10 +3213,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "079b0cfd-8555-4296-9cee-3cf229cf96be")
+			(uuid "1efd76a5-44b8-4cba-9b3a-2e9de879181a")
 		)
 		(pin "2"
-			(uuid "5ff190ec-2bbc-4888-a91b-429adc23df75")
+			(uuid "7fcb6ead-6872-4c50-b7ce-0d6f7a47b075")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3327,10 +3307,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2acf1a48-271f-48db-b0f3-b7f439175953")
+			(uuid "9c858879-ff6e-4b56-ad64-d69a83f17037")
 		)
 		(pin "2"
-			(uuid "5d47ead9-48c9-4c6c-995e-65eefd13a10b")
+			(uuid "fe06601a-0681-4447-9c0c-548406f26771")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3421,10 +3401,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f86e613-5164-457d-8e6e-2836cc0debed")
+			(uuid "c040d6cd-a730-4bbe-8a20-64707cecdebf")
 		)
 		(pin "2"
-			(uuid "487ca3e3-2eb7-4e34-a93a-e015ce29178e")
+			(uuid "ce56ab24-52c3-4519-9a9c-3f8a39b2b24c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3495,10 +3475,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "58ab5344-bacd-4bce-8904-d933d05721f9")
+			(uuid "ef6a377c-02b6-4485-a1db-aaaff5145d47")
 		)
 		(pin "2"
-			(uuid "c029783f-538e-4757-b827-02dd2fa4f336")
+			(uuid "5120a089-1cc8-4fb5-bf30-87fb4412152d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3569,10 +3549,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cd8eb43-31e1-4ec8-b9fa-477ddef499dc")
+			(uuid "eabb569e-817c-4c26-be24-d76bbe227fb3")
 		)
 		(pin "2"
-			(uuid "cb4adab4-8a89-4b3b-a6fe-8e20e9b569c7")
+			(uuid "042cee3e-4fbe-4bf6-8e2c-3ba6fc8b7d97")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3642,10 +3622,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "78c5f5ce-6f88-4011-a767-6c9ada80f9bd")
+			(uuid "c4d70dc8-e558-458a-859e-c7ed50ea6916")
 		)
 		(pin "2"
-			(uuid "d915a5c0-ce0c-4cd0-89c0-31c8c4445811")
+			(uuid "d1216805-951c-46d0-b90a-7742e66f1d6d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3716,10 +3696,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ac4b810-e55e-466c-b186-875c5f69e90c")
+			(uuid "b755ffa7-f836-4df7-8728-1b5850dc7e4c")
 		)
 		(pin "2"
-			(uuid "84d44217-3e20-42b7-bc01-73595023e4ce")
+			(uuid "70a7783a-5e52-40f1-a3b8-fa6981ff9a06")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3790,10 +3770,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "16f06a8a-1a76-4b07-99a2-4ee65f61529a")
+			(uuid "89518ea9-f302-4690-bcf8-7df921d7358b")
 		)
 		(pin "2"
-			(uuid "cbce2f26-c815-47f0-a6dd-81ab04a83537")
+			(uuid "2e01864c-5b0a-4136-840c-fc769c978c66")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3864,10 +3844,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2a34915-0a89-472b-afd2-a0b804f17904")
+			(uuid "1fca30f0-569f-4f70-a9ce-8a78f4430368")
 		)
 		(pin "2"
-			(uuid "6f0155d6-dc37-442a-b971-d534d7062074")
+			(uuid "08ade6d9-3315-42f2-b7b9-fd0bb307d61c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -3938,10 +3918,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "51baff6a-8d71-474b-baa0-9174adcb32b2")
+			(uuid "ecd2e9ef-4f43-45fe-ba9d-c13b446d4639")
 		)
 		(pin "2"
-			(uuid "43976aaa-0979-48d5-94be-0be281110ea9")
+			(uuid "a7dedc7f-2468-4f48-954a-683f5e422c81")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4011,10 +3991,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3521b2cc-9b9c-48e5-9fd5-4da2184abfdf")
+			(uuid "192e342a-ee0d-4f7b-a6f4-bc8058bc4629")
 		)
 		(pin "2"
-			(uuid "769576e0-3ade-4d38-a7ed-2dc1265140bf")
+			(uuid "8cd0151b-ddc1-4545-8dca-f61bd322f9f4")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4105,10 +4085,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "248c3c31-06ce-424a-9d9d-bc11efdb895d")
+			(uuid "1e20fb04-4c12-46c6-be19-9ae96ebb5c32")
 		)
 		(pin "2"
-			(uuid "9df66b90-9729-4c0a-a259-f90ec3cb7307")
+			(uuid "4a885d9c-a1b8-4119-904b-552b4460bcca")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4199,10 +4179,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "80f9b673-0981-45b7-97f5-226b6e10bc38")
+			(uuid "f869e5f9-df54-4400-8c17-f294f6fa21d5")
 		)
 		(pin "2"
-			(uuid "c935fa68-fbc9-4a99-b6c3-60a4eb899b54")
+			(uuid "c4189129-5b10-45b3-a995-b62ad673e2bb")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4293,10 +4273,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "97d75241-23a3-4bbe-a1d6-35d43465f26b")
+			(uuid "211e482b-7226-40f1-8d7e-0056529417b6")
 		)
 		(pin "2"
-			(uuid "7c57ecb6-b330-4831-86e0-e9e7379f9c99")
+			(uuid "d60e205d-0fdd-482c-8dda-e1ab2069159c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4367,10 +4347,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "55d635e7-2908-4243-b44b-5eab174c0edb")
+			(uuid "dbbceebc-d827-465c-b19c-b62dea53b88c")
 		)
 		(pin "2"
-			(uuid "e8047254-2953-496c-a8b1-bafbb2866c4b")
+			(uuid "6a26af92-5bc5-475e-8423-230d53330224")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4441,10 +4421,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f17c1576-98e9-4726-a70b-c66fe9c08558")
+			(uuid "2e5f3a6a-741e-4173-ac0d-a91335e3894c")
 		)
 		(pin "2"
-			(uuid "13fd5c25-f45b-4059-b37e-5dc626fb4a5f")
+			(uuid "4d4b62c5-3b5b-4ee0-9761-9ec6ee9edfd2")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4515,10 +4495,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5098de7-b770-44ee-a414-013923e6603c")
+			(uuid "949af974-06cd-482d-bee9-51b2c6c2f915")
 		)
 		(pin "2"
-			(uuid "c8d2e012-699f-4b8a-99b9-96f86d1665d5")
+			(uuid "73854161-f057-4775-ade6-65b3a581e9ad")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4609,10 +4589,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cd9b5f0-f5df-47b1-9974-6331f4a45525")
+			(uuid "acae9333-c7b0-4355-838d-ed89ba9e853f")
 		)
 		(pin "2"
-			(uuid "99a501dd-a1e3-4f99-9642-09f9bfe75ad6")
+			(uuid "12184bdb-22cc-4a54-9ce1-d5ab8fa345f6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4683,10 +4663,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "90d6a392-5208-487e-965e-bb1b45d9df37")
+			(uuid "35461690-6ad5-4f18-985e-252a80788b4a")
 		)
 		(pin "2"
-			(uuid "9474da17-e4ee-4baf-922a-ef9b9507bb01")
+			(uuid "4d5c9dd3-b5fe-4297-a181-34e878cb4021")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4777,10 +4757,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6099bff7-bc22-433c-96d4-4a71bef5c0e7")
+			(uuid "d435d17b-8384-4313-9ce5-869be79c0476")
 		)
 		(pin "2"
-			(uuid "4614e409-16a1-4016-95a0-2d98e88201fe")
+			(uuid "10dcbab0-8e90-42d5-b106-98bf1eeeae5e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4851,10 +4831,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0defe29-956b-45c9-a85d-adb1840ab414")
+			(uuid "d3df6b19-e154-411a-97a8-0b4d249bb8ac")
 		)
 		(pin "2"
-			(uuid "52e17664-33bb-4087-ba99-6a40349368da")
+			(uuid "80d9efd6-dca5-4c2b-8904-153ed06c5c50")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4925,10 +4905,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "70a7a6a1-ffa7-43a7-8918-5bf4346a9915")
+			(uuid "515b41d6-1c6f-4660-a614-64246c0ba998")
 		)
 		(pin "2"
-			(uuid "41abaf29-adcd-4689-98cb-242d1ce54ea7")
+			(uuid "879a70ff-bb27-4f1d-9fad-2826286a22a5")
 		)
 		(instances
 			(project "keyboard_0"
@@ -4999,10 +4979,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f20ea7d5-d6ff-4556-87f7-2742b8bbb61e")
+			(uuid "fc34e8e6-7605-4177-8917-2bf304fef9ea")
 		)
 		(pin "2"
-			(uuid "9490232d-86f8-45b9-80cb-02f1ea3f070a")
+			(uuid "112331f0-5ed8-4ce0-96ad-3e2563576d25")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5093,10 +5073,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ab90a25-3dd0-4930-b84f-4637316aef85")
+			(uuid "9bf336b3-b728-403f-b89e-344ce81cf6cb")
 		)
 		(pin "2"
-			(uuid "14af09b5-4bc8-45aa-8c21-2de4006908f7")
+			(uuid "574926ec-084b-4593-a3b2-f75752d8b541")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5167,10 +5147,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b72b327-91b5-4dec-acaf-288d7f17fc30")
+			(uuid "b351436b-f396-4e69-94c9-fe985edbfcf5")
 		)
 		(pin "2"
-			(uuid "60bc1631-066f-4062-9e7a-b982456fcdeb")
+			(uuid "e6c53ed2-0208-450a-8b6b-765a7bf94674")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5241,10 +5221,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cf45b7a-f2eb-4002-b22b-2fade1a5d646")
+			(uuid "928c4de6-b205-4fe0-b340-99ec2f74ffbd")
 		)
 		(pin "2"
-			(uuid "0cb734c4-8e1e-4769-9900-a94848848cf5")
+			(uuid "f9d1995b-4306-4ec1-b7ee-beca3dcdcbcc")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5335,10 +5315,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebbb6376-0ee5-4ae6-9e69-e9f86583006a")
+			(uuid "77888826-78c1-416e-a0fa-3ef2574aabc8")
 		)
 		(pin "2"
-			(uuid "91fe0fc2-9f87-4498-909d-157be1a188a6")
+			(uuid "162b0bc1-afbc-4388-a6c9-3e489a55a335")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5409,10 +5389,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c033083-4088-4dea-adef-3f23a0979b82")
+			(uuid "a81f312a-17d9-4115-84d5-6b919030d7b7")
 		)
 		(pin "2"
-			(uuid "23929040-24dd-48b8-98bf-aabec7890045")
+			(uuid "c6051eea-dead-464d-bd3b-a5a169a99806")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5483,10 +5463,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe682b17-9647-49f8-90b1-e6bdcbfa3330")
+			(uuid "622c8d10-cd88-4d80-a612-588c3c62ec1c")
 		)
 		(pin "2"
-			(uuid "92399f62-57be-40c9-8f2c-149d669131ce")
+			(uuid "939a05cc-9284-4de6-9cb6-55db18a2bc2b")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5557,10 +5537,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd465820-cecb-4b91-8a5b-7feea8a3dfd5")
+			(uuid "af24904b-d346-480e-b0fa-8a1d5afe4122")
 		)
 		(pin "2"
-			(uuid "5fb8b618-3b31-4994-b219-dca31a980891")
+			(uuid "4c70f8b4-04df-4fba-b171-8bf5b873f2ba")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5631,10 +5611,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae29ac61-a16a-48cd-9a66-79379d0a875b")
+			(uuid "66503130-4cf7-4f48-b5b7-a03af159c1c9")
 		)
 		(pin "2"
-			(uuid "a51a083c-0731-4303-96ca-58e90e5b7360")
+			(uuid "865f8ff2-37a2-4817-a119-d0bd0f9387e2")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5705,10 +5685,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "acc568d4-654d-40aa-9423-35424dc4e326")
+			(uuid "a29b7b98-064b-4937-aa03-dcb00259cfeb")
 		)
 		(pin "2"
-			(uuid "01398921-98e5-4dde-a8d3-1da6c480bb8f")
+			(uuid "b4d81810-fe3f-4994-aaf2-9a5e0c9d9dc7")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5799,10 +5779,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdcedd01-0e6c-4e32-9d3e-3063a8da2a1f")
+			(uuid "a707d945-a154-4649-9f9d-e7def8e666fe")
 		)
 		(pin "2"
-			(uuid "038e8e3e-4779-4598-81c2-c7290e6b9126")
+			(uuid "dd396c94-4bdb-476d-86bb-0c50dbe60bd7")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5893,10 +5873,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0724210a-5848-4fbb-a5ed-f41886899aef")
+			(uuid "8f2bdd0a-b833-4b75-aed1-2a2c00732cd5")
 		)
 		(pin "2"
-			(uuid "f0241c54-5a6d-4380-bfd3-908ec51c8dd4")
+			(uuid "679bcf18-ae7b-48bd-ab9f-74ad3aaaa597")
 		)
 		(instances
 			(project "keyboard_0"
@@ -5967,10 +5947,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "53d81954-45cf-45ff-a46f-60a8e93e797a")
+			(uuid "47576f20-8b75-4b21-be62-28d93fb75fc4")
 		)
 		(pin "2"
-			(uuid "0694687c-0803-4e33-b6f7-629c3f4da485")
+			(uuid "1e8dc6bd-ce47-4e2c-aa2c-f06a4c5d8e8c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6041,10 +6021,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b70d8bc-2059-488f-8cfb-b5e18cbfc0aa")
+			(uuid "1812a8eb-0569-4b20-bb98-b6e96de27c5b")
 		)
 		(pin "2"
-			(uuid "3e6e9d51-9999-455d-9e5e-d7960d1ccef8")
+			(uuid "ce7b4ec6-4b9b-4189-b5ff-124fa966d6df")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6135,10 +6115,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6d2cea6-eb89-4577-95e8-0e87a1e89ca3")
+			(uuid "501a65ff-dc99-43a3-8574-77668a28bea9")
 		)
 		(pin "2"
-			(uuid "3f09a0cd-d6f5-4f23-b8c5-dbd228450ba1")
+			(uuid "55a39c27-8531-4064-a5c5-442e72a59279")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6208,10 +6188,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6840b540-6dc2-4e6e-89e8-05f3962a9fed")
+			(uuid "b0d848d2-2979-403d-bfbd-f51ec1691f81")
 		)
 		(pin "2"
-			(uuid "363754ea-c6c4-48ef-82ff-3b0a325521d3")
+			(uuid "d3f63ccc-5d4d-48ae-8e4e-0f78993efd5b")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6282,10 +6262,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5633fcca-da93-43ea-b91d-7ae5a83ff21e")
+			(uuid "111106fc-51bd-4e2d-925d-665f7ac2f6c5")
 		)
 		(pin "2"
-			(uuid "5a96a90e-95dd-4b98-8836-b1a9c52351ab")
+			(uuid "ec70280f-6ae6-4317-bb4f-47d1ee7b2336")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6376,10 +6356,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeb7822a-44b4-45ca-9aec-6a7affd84814")
+			(uuid "a0d65555-b8dc-4d1a-b0bd-cdac52df7d81")
 		)
 		(pin "2"
-			(uuid "5f85b270-9997-4f4a-acad-50866eb94e79")
+			(uuid "efd7b64b-8766-46f2-a859-4cf362393ea0")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6470,10 +6450,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "143743eb-0c2c-475f-b7ab-78c42c157c6f")
+			(uuid "3ea5a6c7-ab9a-4e7c-8c17-9b86742ec47e")
 		)
 		(pin "2"
-			(uuid "826b8c0c-f543-4ee6-9509-28f8148db556")
+			(uuid "bea6ac72-cfd3-4a1d-a2d3-de11f5518585")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6544,10 +6524,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "869829fb-5a99-46b2-8cf3-d3dbbbdce7c9")
+			(uuid "f38df337-297f-46fb-b3cb-74e16ce5f559")
 		)
 		(pin "2"
-			(uuid "176fa8ea-4f95-4442-84a1-f40a18d6b1b3")
+			(uuid "0c89afe2-6944-49d0-9f53-02936a4aaad6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6618,10 +6598,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "581a2ce0-2706-446a-ac0d-f9da195ed17c")
+			(uuid "07207780-5cf6-47ff-ac52-ed966e2596c1")
 		)
 		(pin "2"
-			(uuid "3989744c-2dec-4164-b3f0-66a20b8457e6")
+			(uuid "0e114e67-98bf-4eda-9104-55075a8c0220")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6712,10 +6692,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9783e6b9-a052-464a-98e7-38e94bb383a5")
+			(uuid "8cfd41f5-573b-4970-be2e-c3dcdfd9760a")
 		)
 		(pin "2"
-			(uuid "4862676a-6aa4-4cbd-9786-3d6c11bc861d")
+			(uuid "fa59d3b6-c4c1-4f10-a448-ee93ad791fd3")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6786,10 +6766,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5f5f23e-06b0-4acc-a1c5-dfa7aa9b3feb")
+			(uuid "41700dc3-b05c-406d-afa2-f00b95aae350")
 		)
 		(pin "2"
-			(uuid "a84351c2-3dbf-4ff6-8845-8bf7acc7b082")
+			(uuid "31b94c7f-f3f5-4a98-8c6d-2694e9153579")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6880,10 +6860,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d544ee22-e5c4-40bc-aa76-6079dbb8c88c")
+			(uuid "9f14d9c5-0a04-495d-a82e-d3fb2a9d91b5")
 		)
 		(pin "2"
-			(uuid "dca56f32-fc4d-4f60-9eb6-a63989debfb2")
+			(uuid "85168a66-5941-4222-a439-a9f4b18291b4")
 		)
 		(instances
 			(project "keyboard_0"
@@ -6974,10 +6954,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a7473b4-4399-4bcc-bfab-e11c3c3c76c2")
+			(uuid "9e744a7a-3230-44bd-8e0c-845799035833")
 		)
 		(pin "2"
-			(uuid "ae60567e-a925-476a-8e5e-e625b34e08cc")
+			(uuid "d1ed791d-cad7-41d8-b589-c69a1c34fb96")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7048,10 +7028,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c3a15d7-4a9c-4abf-88a9-6ecf6347402c")
+			(uuid "1b3fe304-c366-42af-9cf9-984fd12e6d85")
 		)
 		(pin "2"
-			(uuid "5245e8c1-5a0e-4703-ab7f-503f7f5fd7c0")
+			(uuid "15f6579d-a8f6-4791-92a3-17db987d714d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7122,10 +7102,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d60b19f-3648-4fab-9d8f-8deb979b4ddf")
+			(uuid "e456f15b-393d-4267-b46d-10ea7e27ac14")
 		)
 		(pin "2"
-			(uuid "da74cf1f-3fdc-482c-8cf1-bde69e46271d")
+			(uuid "b3d9b5c5-d05e-403c-a2b2-383f97e71ee1")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7216,10 +7196,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc128ab4-2105-4eba-9124-ea85b7e94ffb")
+			(uuid "ad7ab4e0-35c6-491c-bbfd-287346d30a6a")
 		)
 		(pin "2"
-			(uuid "cc4ce312-910b-428a-bcd2-e3770b9e9fe4")
+			(uuid "b0774b3e-8705-4eff-bed9-8689fdd78ad1")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7310,10 +7290,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e52b9d55-2a16-4664-931d-bf3fd192c413")
+			(uuid "9db6f7eb-c9b2-4f37-b8e9-8fa2f5ce48ad")
 		)
 		(pin "2"
-			(uuid "4465db6d-360e-4a50-9e52-43879999f8d0")
+			(uuid "2e520d49-a6ed-42df-92c0-fe892f9bf3c8")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7384,10 +7364,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e1433d4-d301-4336-8e12-06be40f0358b")
+			(uuid "6d8bd7a5-1cf5-4092-a485-53c2b5f751ad")
 		)
 		(pin "2"
-			(uuid "bbaf0752-f035-4ff1-b46e-fb22ee9782dd")
+			(uuid "d8add6f4-160e-472f-8981-a0498aee0646")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7478,10 +7458,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e25070e3-feed-4691-9965-8c154925be43")
+			(uuid "f80a1dd8-1390-4aa8-be18-3e71aa3c0742")
 		)
 		(pin "2"
-			(uuid "0b6c710e-aed2-46da-8654-123fc14db54b")
+			(uuid "93e98152-4092-4757-8e7b-4b84366572c6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7552,10 +7532,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d533582c-31f9-4cfb-9034-f78a4af48a80")
+			(uuid "ae363c53-891c-45b7-a107-08d37cb0a96f")
 		)
 		(pin "2"
-			(uuid "f2ff0ea4-156c-4860-a26c-b2d0fa6316a5")
+			(uuid "10f7c1fb-9da2-4afd-92e9-ac4773e07f50")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7634,6 +7614,12 @@
 					(unit 1)
 				)
 			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
+					(reference "S3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7690,10 +7676,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce42c9f4-71f5-4614-b4f0-5fdc072a70ec")
+			(uuid "80c4c1ed-5a65-4ece-8e98-e397a10e5744")
 		)
 		(pin "2"
-			(uuid "2d8edc75-bac3-4ae4-a2cb-abb3faf31cfb")
+			(uuid "b1d4682c-cc11-4b0c-add1-8e1ea80e2d66")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7764,10 +7750,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5045f7de-b05b-4f7b-aaea-875e489d9888")
+			(uuid "f39f0db0-8bd4-44d8-acea-20a9e417ae1d")
 		)
 		(pin "2"
-			(uuid "a872ed41-a374-4eab-bdc2-b334bc597c52")
+			(uuid "708c7747-58d0-4388-925d-c68abadb9134")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7858,10 +7844,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "131ecd37-a46e-404b-8b29-af700b46d15c")
+			(uuid "194754b4-fbef-46d9-a9de-0792f6ad49ce")
 		)
 		(pin "2"
-			(uuid "2adf45a5-6769-4e74-b4ba-60769ce2bde7")
+			(uuid "cd7f693c-60bf-4c30-9e7e-754d714dd08f")
 		)
 		(instances
 			(project "keyboard_0"
@@ -7952,10 +7938,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f7f53c4-6a73-4533-8ce3-759c57be3791")
+			(uuid "cb8c4a2c-cef2-4408-a5b7-0b04b3eb4442")
 		)
 		(pin "2"
-			(uuid "35f51211-b86a-4b4f-8c40-13140cc6cfac")
+			(uuid "cf83ae78-cc96-4f3f-a268-52cf7a393ac5")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8046,10 +8032,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "697e7538-e580-4b48-bca4-4224e6399063")
+			(uuid "5957154e-f60b-4a72-8a83-92ea9a59c715")
 		)
 		(pin "2"
-			(uuid "68086d0d-7b27-4f58-8b69-13725f4d7a42")
+			(uuid "1810454e-69ac-46c2-b09a-562604b7ec83")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8140,10 +8126,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "410b8ca8-a96d-4d0f-ba75-b5e0598e6479")
+			(uuid "f42bae20-66b2-485f-aee4-ec0b0c1adba2")
 		)
 		(pin "2"
-			(uuid "99bb557c-a7df-4c29-b308-dbf01efb162e")
+			(uuid "97628bbd-2b49-4ce5-b02c-4d1ea3163618")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8214,10 +8200,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "16100826-11fa-483c-84b9-f27a09579838")
+			(uuid "e56fa0a7-62ca-4327-a011-98de9b0a4413")
 		)
 		(pin "2"
-			(uuid "971d3db9-49fb-4b57-abea-4f9c0ab5bb5b")
+			(uuid "33dda373-1bc3-4409-8a73-e5801a97e23d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8288,10 +8274,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "07519d72-3519-4375-9aca-26c9b2049927")
+			(uuid "65105a7a-112e-42b2-bc10-865c05520f89")
 		)
 		(pin "2"
-			(uuid "99b53a68-b673-4563-82f6-c78a1e8d27e6")
+			(uuid "0d93a0db-6745-43d3-8297-0a95613741f9")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8366,6 +8352,12 @@
 		(instances
 			(project "keyboard_0"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "S4")
 					(unit 1)
 				)
@@ -8446,14 +8438,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b670aa08-6c01-4e92-ab83-074dbfb421c3")
+			(uuid "e2dd3bc2-c068-4178-9570-dca5d3dcf45c")
 		)
 		(pin "2"
-			(uuid "d2e57c9f-51f5-4d7e-9401-81344863dfc0")
+			(uuid "2b56f8f6-f45c-41a7-982c-f4e14ed6d450")
 		)
 		(instances
 			(project "keyboard_0"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "D29")
 					(unit 1)
 				)
@@ -8534,10 +8532,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b131172d-d4ef-4dbe-b3da-ac0e2b95ccac")
+			(uuid "4aa190a9-afd0-4ef3-baf9-49caa0b3b75e")
 		)
 		(pin "2"
-			(uuid "a3cd8868-2d89-442a-8d0c-6527c037a462")
+			(uuid "3b077b8c-ee62-4fd3-bd0c-37fa200a45e4")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8608,10 +8606,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce3734e4-cd11-4731-b02c-3237f0cfa417")
+			(uuid "1bc6f650-cea0-44de-a5c4-d06c8ca66513")
 		)
 		(pin "2"
-			(uuid "6262302f-ad98-457f-9dad-aff81448521b")
+			(uuid "f5fe4d4b-d61b-47b4-8f2d-566969fc9093")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8702,10 +8700,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "830ef826-ab9e-40c8-b296-44917cc9d78f")
+			(uuid "899afc2c-ccc7-4bda-be1b-da53346c5849")
 		)
 		(pin "2"
-			(uuid "68786abd-141d-4315-8ecd-5d89fc68f4f8")
+			(uuid "9e8848c4-f1ef-4b04-8b2c-9a5270f0bcc4")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8776,10 +8774,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "008bb2b5-c22a-47ed-aec4-12fcee47bfde")
+			(uuid "9f973512-6a99-4802-8948-728379c443bc")
 		)
 		(pin "2"
-			(uuid "d8f7cfc1-bb5f-4312-8e53-e190e95132ba")
+			(uuid "7169f539-a7d0-4937-8239-fe706321fe86")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8850,10 +8848,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a975308-5181-494b-bbe5-0c3fa29076b1")
+			(uuid "99ef1355-e268-4625-8df8-896a848cd603")
 		)
 		(pin "2"
-			(uuid "a24b9a11-6791-4520-9d86-c0dd94e09c4b")
+			(uuid "60cca4a6-54b1-4b8f-9708-76cebf7c2086")
 		)
 		(instances
 			(project "keyboard_0"
@@ -8924,10 +8922,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b50f7b92-870c-4b1a-907a-1329fcbd9b60")
+			(uuid "af7ceeca-8d0c-4c97-abbc-c4e84a4fd36b")
 		)
 		(pin "1"
-			(uuid "6bbc7947-6949-4bb0-b8c6-e76c5caecfb0")
+			(uuid "5c373a9b-01a6-4efa-8611-88b8bfd661c2")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9018,10 +9016,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "002bd0c4-8df0-4de7-876f-8f72f2975543")
+			(uuid "e2e4d6a2-0587-400f-9677-dbcce93e04d8")
 		)
 		(pin "2"
-			(uuid "71ae4e57-082a-47ac-8cfe-30ba0868f81d")
+			(uuid "d2be28b9-4f9c-470d-af05-5b95f725f16e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9092,10 +9090,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc9a0a16-379e-4a46-a9ce-2dc94bd4462c")
+			(uuid "12ce586e-9ebb-4f56-adfb-e455e2c66446")
 		)
 		(pin "2"
-			(uuid "11ed0142-1ea4-45f6-bcee-7a563d7ac6a0")
+			(uuid "ae85fecc-16f6-4da0-8bcb-24d5d24ff662")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9186,10 +9184,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c9b60b8-4f19-4464-a46c-c111e3ba946b")
+			(uuid "437c5120-838f-4166-ac71-2b3395aced08")
 		)
 		(pin "2"
-			(uuid "1350941e-2ef5-4474-a8d4-af21b89890b8")
+			(uuid "b9cb2725-3956-443b-a051-b630cd78f19d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9280,10 +9278,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe7f0d36-a1ed-4fdd-a4b5-056ca3ba5b37")
+			(uuid "ea50027a-9171-4693-a230-185f89d73196")
 		)
 		(pin "2"
-			(uuid "bc8667be-2089-4925-995e-7d46d557e6f2")
+			(uuid "7efab890-2958-47fe-84cf-90fcfdbef79e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9354,10 +9352,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f28a2ad2-b3a8-4662-8232-891458d4294e")
+			(uuid "e784fad6-de2b-4225-aa87-52f9df8d53bc")
 		)
 		(pin "2"
-			(uuid "28f9fdcf-0be2-43f7-9e1f-cfe2c98efc29")
+			(uuid "420517ba-a92f-4c80-8f1c-be403f9733d2")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9448,10 +9446,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "938ea36d-164c-4c99-bb65-241ff0607f59")
+			(uuid "6976565a-fdaf-4056-9fb5-80688b9a20fa")
 		)
 		(pin "2"
-			(uuid "e0bcaa21-5f5f-49cb-9148-c45d13f0866b")
+			(uuid "95d96ee1-3bd0-441b-ba4e-a7bb77c1bfb7")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9526,6 +9524,12 @@
 		(instances
 			(project ""
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "S1")
 					(unit 1)
 				)
@@ -9606,10 +9610,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8f3978d-3af0-417b-baec-2b9e0af489b3")
+			(uuid "8846be68-9824-4020-8980-15f01530af22")
 		)
 		(pin "2"
-			(uuid "1fea37c5-c891-400d-bc3c-2431a2cfb966")
+			(uuid "35fac6d6-a499-4d96-b551-ac8ae300c42f")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9680,10 +9684,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "09e15c15-fa9d-4aee-9095-673f7ca110e4")
+			(uuid "28bdd64f-0844-477c-a960-03c4a2a2b9aa")
 		)
 		(pin "2"
-			(uuid "221eae3f-4f54-47b9-b057-4b2d4d0e4b4d")
+			(uuid "ebbdbf28-d0f9-4ebe-a9a9-7bd0a7352ebd")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9758,6 +9762,12 @@
 		(instances
 			(project "keyboard_0"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "S2")
 					(unit 1)
 				)
@@ -9838,10 +9848,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1a81162-5178-4619-abaf-c80d7b6e9646")
+			(uuid "6efed6a6-086b-4327-8d36-12836fcf9209")
 		)
 		(pin "2"
-			(uuid "edfdf98c-774e-4505-9c00-ad9f395e0a6a")
+			(uuid "0946f323-6fc6-499e-ac97-bd8a6454dcb1")
 		)
 		(instances
 			(project "keyboard_0"
@@ -9932,10 +9942,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b73ec4c0-3a13-4043-8ca7-ef7438196a58")
+			(uuid "be3c9f3a-080a-477c-aad3-6d612b6e3e93")
 		)
 		(pin "2"
-			(uuid "07d0a141-7cb0-43e9-a7bf-070711a97ac4")
+			(uuid "fcd3e0f3-1e28-43ab-8089-08a10155fe0e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10006,10 +10016,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dbd3c5ed-c978-42aa-b8b4-374b1905f37d")
+			(uuid "6e0a3fcb-3b8a-4926-bb75-ca3e22599936")
 		)
 		(pin "2"
-			(uuid "06774745-b8b3-41e8-b0e8-ff16c76ebce6")
+			(uuid "a3aabf3c-0d2a-4ec9-8bff-cadd0da0bedf")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10080,10 +10090,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d460cb5-fdcf-425b-b7d4-1cc53b20aa18")
+			(uuid "f53dc54b-9aa0-4313-9df9-50cf1fb0d95f")
 		)
 		(pin "2"
-			(uuid "2248f72a-5fc4-4419-b708-c2e7fa6bef27")
+			(uuid "1890e859-b4ba-4a70-91a9-963106923928")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10174,10 +10184,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5949429a-9553-4d2c-a46e-5245c2245bd3")
+			(uuid "05324986-b881-41b0-9f7e-fc72177a3bb0")
 		)
 		(pin "2"
-			(uuid "29cce5e2-3e60-49dc-b46a-37047de344e1")
+			(uuid "d6d36a04-19e3-41f9-bea3-6ffd2c5d6db0")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10268,10 +10278,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce19fb63-0da3-4aa0-9127-e3b63bfa7d84")
+			(uuid "0a3b5dc4-109c-4afb-868b-694dd2077f93")
 		)
 		(pin "2"
-			(uuid "a3b5ecbe-b5a5-4472-9dc3-b02f1ddc56a7")
+			(uuid "3de07596-975e-4d25-9bab-a235a1e62b45")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10362,10 +10372,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "519d329b-8a89-467e-9d18-aa4b11e7b055")
+			(uuid "0eaed13b-1c51-407a-9fef-189aabd52d8b")
 		)
 		(pin "2"
-			(uuid "b499efce-cd5c-47f1-902c-757ed4dc0bfb")
+			(uuid "b3231659-f198-457d-b3e7-6ec86eab8dd6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10436,10 +10446,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffeab3f9-435e-4b11-9005-53305321657d")
+			(uuid "39e1cf6e-5702-429f-a7d7-f63aff6358a5")
 		)
 		(pin "2"
-			(uuid "16bc391a-0396-4cd7-8333-7c8862061b49")
+			(uuid "9340b18c-f0d2-4a8c-b2d7-bf9356a6dff7")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10530,10 +10540,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae50d129-8294-4497-b46a-e9fdc38272a6")
+			(uuid "f5c0eba6-8f98-41c1-8686-9ee168d1b7cb")
 		)
 		(pin "2"
-			(uuid "ccc2eaf8-d927-49b8-80e6-1436aecd1380")
+			(uuid "0ee8e885-8180-4be6-89be-e70d7277db3d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10624,10 +10634,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "24bca307-bfe6-4f69-b351-c988b8cdd747")
+			(uuid "58981aff-dabf-4e3c-82d6-169da6d60181")
 		)
 		(pin "2"
-			(uuid "0d500802-9d55-4e12-9ec2-a8d495c69bb6")
+			(uuid "4a49ae63-be75-45d4-a3a3-97fdc2c8ab5a")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10718,10 +10728,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "48b4d970-fed9-401e-ac61-b9bec5af1e38")
+			(uuid "455e5b09-5072-4d82-8a7a-6962cd3157c4")
 		)
 		(pin "2"
-			(uuid "6302d058-81fd-4457-a06e-e545bd6bb67e")
+			(uuid "8be35bf7-05f9-4667-81b7-1c4a5c1223b5")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10792,10 +10802,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9e472ff-320e-4bce-91d3-94e76872e913")
+			(uuid "e0dbea97-015a-42de-9a50-15c4fced9d9a")
 		)
 		(pin "2"
-			(uuid "4ddb1617-a7df-4f80-a15f-06c06e05d39d")
+			(uuid "aff5342e-0d4c-4069-a09f-f2f4a47faeae")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10866,10 +10876,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "df530277-de56-41ef-bff9-a6abd20d366b")
+			(uuid "c330c99b-a95d-4c7e-a0d5-9b45614675b7")
 		)
 		(pin "2"
-			(uuid "ced6a461-8152-41ea-8143-5011ce9f42a2")
+			(uuid "5b3f9fe6-b64b-47d4-ae56-c7f3c2f3a25e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -10960,10 +10970,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "438ad806-5d92-48b2-8a48-e727df0fd1d4")
+			(uuid "4ae91740-24f6-4e72-a6a7-4831e154e24a")
 		)
 		(pin "2"
-			(uuid "e277d1be-bd77-4695-bc6a-b98b6c40f9b8")
+			(uuid "a5fd49ce-2b66-47d0-876c-6ec67302937a")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11034,10 +11044,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7078e9f7-ad19-4241-8dbb-725013d03a21")
+			(uuid "af17532d-fa0a-424e-875d-dfd46012e51e")
 		)
 		(pin "2"
-			(uuid "59998d0c-b2b8-4d5b-bc6a-136acd13fafc")
+			(uuid "f4fb37cf-9d87-4d58-8fbc-45f4fa064a3b")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11128,10 +11138,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4bc7a4b-e9f1-4ca6-8411-0708c8b95be5")
+			(uuid "6310d940-9ff7-4b4d-8aaf-d9f6bdc250b7")
 		)
 		(pin "2"
-			(uuid "d234998e-37e8-49a6-8157-db5320fab814")
+			(uuid "a226417e-8b71-4b8a-a3a3-7b29b1730608")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11222,10 +11232,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2a2e385-6462-4cd0-891a-8b0adfc76527")
+			(uuid "41c37139-0f8a-4f06-87bc-bd7911aeb3aa")
 		)
 		(pin "2"
-			(uuid "6beb6fce-c731-4450-be5d-89d5f216669e")
+			(uuid "38a02c65-972b-4ac9-9d01-b1cd785accc6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11296,10 +11306,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a40abeff-4de3-4a31-af61-033b7fdf96b7")
+			(uuid "ab6dd57f-64db-46d3-b752-83da6c64e378")
 		)
 		(pin "2"
-			(uuid "432cc32c-279d-4fa0-95ab-afb201e75a94")
+			(uuid "52faf417-5c9f-42ac-b206-559890ac225d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11390,10 +11400,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "20217282-40ba-4f40-8ca1-d46b306f8362")
+			(uuid "1677e74b-8826-40a9-a40f-136d5a80d706")
 		)
 		(pin "2"
-			(uuid "0ecf4ec2-76dc-4d47-8c29-a4216d13f97e")
+			(uuid "64ef479f-e88f-481b-a163-c3197686b080")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11484,10 +11494,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4084aa5e-7f7d-4715-8684-c116e28a6307")
+			(uuid "41588140-99d4-4c5f-86c6-4e28656c00e2")
 		)
 		(pin "2"
-			(uuid "e354b30a-eb40-4bad-b7e2-5a9324c3dab5")
+			(uuid "17f9c0a5-9793-4a29-959d-95691775e2bf")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11578,10 +11588,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac171c85-e9d5-46ea-be0f-7a7a45305a14")
+			(uuid "d5bee21f-af4a-44c7-8b60-5e5354365a97")
 		)
 		(pin "2"
-			(uuid "d12326fe-e6c5-4bd6-a401-16d4da6f92f5")
+			(uuid "4d39cbb4-d969-40f2-b0da-358774e79990")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11672,10 +11682,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7978dec7-aed8-4713-9911-24b661ece34e")
+			(uuid "06eb8565-8d4c-4b0d-9b08-71690ce72512")
 		)
 		(pin "2"
-			(uuid "a207a442-36cc-408e-b2b6-433923b9febc")
+			(uuid "15bdeb5a-6139-4ba7-b90a-051c7e370c38")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11746,10 +11756,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecc46902-868c-456d-bd5f-c0bf9ced84c0")
+			(uuid "d6283511-763b-4c92-af89-2405fae6a679")
 		)
 		(pin "2"
-			(uuid "d740ccdf-25c9-49ec-9f54-4e42a7415d97")
+			(uuid "dedbe88b-0b4d-4507-8f52-df4aefd07e87")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11840,10 +11850,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02c82c62-3db6-4b36-895f-f73c70b026bc")
+			(uuid "8c20d560-8a3c-4fcc-8832-1e3a50b09d5b")
 		)
 		(pin "2"
-			(uuid "65e6d310-7252-42d7-8ede-a6b20aeebf3c")
+			(uuid "af2d8c68-3d62-4ec2-9db5-19a37511c4ab")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11914,10 +11924,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf24a9f8-5d04-45b1-a212-188cd451826a")
+			(uuid "9290fdc1-3916-425a-8bb5-948084915ebd")
 		)
 		(pin "2"
-			(uuid "791d210a-fec5-47fa-931b-e93cca4a47e7")
+			(uuid "9f47f17e-51e7-4280-ac81-ab42d61967a7")
 		)
 		(instances
 			(project "keyboard_0"
@@ -11988,10 +11998,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc0f6f86-90d8-4019-9c37-77b7f51beec0")
+			(uuid "67443b86-2824-47b6-a737-86322a6cc45c")
 		)
 		(pin "2"
-			(uuid "1965bcbe-cb26-47eb-9553-06ca69bee052")
+			(uuid "94ba0812-41d9-43ac-9b82-8aa3461b265e")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12062,10 +12072,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ce0d0ab-fd02-450d-ac8e-6956ab1716ef")
+			(uuid "d1b619e3-92c2-4abb-bcf8-cf25f4805be0")
 		)
 		(pin "2"
-			(uuid "c4023136-dce7-4b61-baac-d532b8a459df")
+			(uuid "930c2ec9-5014-40d6-80c1-e145fa9b17f3")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12156,10 +12166,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bac9675-b8dd-454f-b21a-1ee961e2d14f")
+			(uuid "2fd95b2f-187c-4c2a-9165-f7616a012598")
 		)
 		(pin "2"
-			(uuid "e238c742-8524-4f3b-a7f5-890cebdebce4")
+			(uuid "3f3fa62b-c5c9-4a2a-afd5-d4250545baa6")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12250,10 +12260,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c34287e-e455-4f9b-88dc-2ca565951d48")
+			(uuid "806fd347-4b44-49b7-b9d3-31803cb58ae7")
 		)
 		(pin "2"
-			(uuid "737a4b3e-0351-4d45-bf70-34c98a4fd784")
+			(uuid "b3d2179d-f00d-44e7-9cf1-287f9522a088")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12344,10 +12354,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d54aa57c-9095-41cd-b30d-1e2cdc20aa96")
+			(uuid "15ed8f16-764a-4fc4-a62b-67581dcc0950")
 		)
 		(pin "2"
-			(uuid "f4ba98af-cc8a-47bf-9599-b4f44c8df36b")
+			(uuid "468af6ab-38c7-491f-9148-f48c904397d0")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12438,10 +12448,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "479e008e-c334-4496-8565-411db9370d46")
+			(uuid "10be02cf-f8d0-4770-a4c7-b2b6f1a4d7d4")
 		)
 		(pin "2"
-			(uuid "0634a8e2-9f5f-4c34-99b5-c5c05faa141d")
+			(uuid "2dba0ad9-ba03-48d9-bed4-a33e18e9eca9")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12532,10 +12542,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bccd6b63-e50f-460b-83d2-7021f142a50b")
+			(uuid "ef959503-da42-436c-8042-2a663f809c73")
 		)
 		(pin "2"
-			(uuid "93e0b348-84f0-48c5-a879-cd1156a5eb10")
+			(uuid "655e029a-48d8-4750-89f8-e981e43e83e0")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12606,10 +12616,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "466e5414-7867-4215-911a-06c824a7408c")
+			(uuid "d7558cb4-654b-4b91-878f-f83911436250")
 		)
 		(pin "2"
-			(uuid "ecd62141-18c3-4a79-8426-16dd7689a8fc")
+			(uuid "75d37381-d461-4291-9709-034be2b0a45c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12680,10 +12690,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b29d642-fd00-4b40-a668-43bde645b7ae")
+			(uuid "b5c85ed7-52ac-49b2-a037-d94b18fa03ed")
 		)
 		(pin "2"
-			(uuid "23e55fc0-bfb2-4570-834a-cacdcc93620b")
+			(uuid "469ef025-3952-40a9-8dae-03feb47628e3")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12774,10 +12784,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ff4cf21-eb01-46b7-8e0d-a2473200668a")
+			(uuid "2fbcc39d-5c01-401a-b749-5e1f01d45654")
 		)
 		(pin "2"
-			(uuid "0aeba84d-ad71-4122-8385-4504506b9e1b")
+			(uuid "89082f04-f45f-4d62-a4b0-2810122a925d")
 		)
 		(instances
 			(project "keyboard_0"
@@ -12852,6 +12862,12 @@
 		(instances
 			(project "keyboard_0"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "S5")
 					(unit 1)
 				)
@@ -12932,10 +12948,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f6cb32c-1e1a-4830-94aa-f4e1a85feba4")
+			(uuid "81f29fc2-d520-47e7-afad-102e7855875e")
 		)
 		(pin "2"
-			(uuid "1395ca24-65a2-4c1e-81dd-aa17a8b942af")
+			(uuid "2287b111-a28d-443c-bd35-524348ce407c")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13006,10 +13022,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "05066b1f-3045-486f-9b8d-0d64e39f3d91")
+			(uuid "bb883f5e-5f9c-447e-81d1-2bbde3e1d431")
 		)
 		(pin "2"
-			(uuid "720144d3-79f7-4219-b0c3-58f2be78fef7")
+			(uuid "3f6da84c-050e-4a55-bfef-a74ab4c5f2f3")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13100,10 +13116,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e984092d-57c7-4eec-95d3-80cc80f5ab9b")
+			(uuid "127e76a3-8d9e-44f0-a796-4f49f856c2d9")
 		)
 		(pin "2"
-			(uuid "827b9e74-8495-4498-aa0b-e47a6e18085e")
+			(uuid "4aea5a31-c040-4fd3-9eb3-72957becebf5")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13174,14 +13190,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "72c3c225-839c-44a5-bda6-b164e39e9612")
+			(uuid "3f7ccb8d-e058-45d6-8474-9835ad7560da")
 		)
 		(pin "2"
-			(uuid "80c56842-5baf-486b-8256-f08cdcc8cd7f")
+			(uuid "04d57f5f-37b3-4448-93db-9ad94e8c6d26")
 		)
 		(instances
 			(project "keyboard_0"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+			(project "switches"
+				(path "/d43833e6-42f1-45e5-83d6-28baccbabb57"
 					(reference "MX29")
 					(unit 1)
 				)
@@ -13242,10 +13264,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "57c742c2-0c50-4f95-8c52-fbd1c6025c53")
+			(uuid "20deddc8-6c26-42af-9fdf-5d487e7d5581")
 		)
 		(pin "2"
-			(uuid "df4e95d0-ff84-47af-b06f-56e5697a282a")
+			(uuid "d0329ff9-ed6f-4472-82eb-d370c4e18a85")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13316,10 +13338,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "21dfee44-4386-4106-9d15-2cf85c6d7ad0")
+			(uuid "50045374-4dba-4b47-98a3-aa39b790f8d2")
 		)
 		(pin "2"
-			(uuid "5f23e8ab-9fbb-47f3-8556-cbe8b9bff071")
+			(uuid "c7a99f77-76e1-46be-bbb7-151b6fc14cb9")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13410,10 +13432,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1aa97f16-bda5-4617-a398-adc809b3a1dd")
+			(uuid "d0f667f9-cdd1-4896-a869-dfad161a5de3")
 		)
 		(pin "2"
-			(uuid "d4f0cd84-c0ee-4076-b10d-a304cfe8fa6a")
+			(uuid "ff6ea7a4-cc3d-426b-b2a7-149a760041ae")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13484,10 +13506,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b564c60c-7ecf-42fd-83b2-b2662e8fbd3b")
+			(uuid "cc4fcf8b-fe83-41ca-a862-f917dc292418")
 		)
 		(pin "2"
-			(uuid "a72f6f40-61a1-47c8-b970-cbc9e841d4db")
+			(uuid "d9fd8165-fa1a-4dae-af0a-7280c43712c8")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13558,10 +13580,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2757be4a-8191-47c3-b3c5-4059a704560a")
+			(uuid "d1c546ef-6bf5-40e6-a682-92449593aba9")
 		)
 		(pin "2"
-			(uuid "bddbcf6b-e173-4151-a072-ed871380c351")
+			(uuid "cb415e6c-28e0-4327-b864-61f39d290cfb")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13652,10 +13674,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bee6e6d6-3072-4c9e-b466-37298148a1a4")
+			(uuid "904fc62d-5a0d-475d-90af-1aab6be034be")
 		)
 		(pin "2"
-			(uuid "3d6442fc-a309-44e1-a79b-72f927949a97")
+			(uuid "81109a5a-1bda-4c09-8fa9-5bb12776c991")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13746,10 +13768,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "242f8bfd-3080-49e8-9b17-2387b47d13d9")
+			(uuid "46761e2e-bb25-443a-a470-ddb5c7aa3fd6")
 		)
 		(pin "2"
-			(uuid "c32f8c5d-dcc3-422f-909c-8a4edd07c2c4")
+			(uuid "e3959fc5-477a-4087-b43e-87d7307e668b")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13840,10 +13862,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a61b323d-7db0-4a93-89ba-28390da0beeb")
+			(uuid "c9b3adc5-90dc-4140-9937-0f5beed7ea14")
 		)
 		(pin "2"
-			(uuid "6d0a0357-a65d-4ff6-b80a-7684fc363fdc")
+			(uuid "8c06704d-40c5-4113-9f61-628c99fd47b8")
 		)
 		(instances
 			(project "keyboard_0"
@@ -13914,10 +13936,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8637fe7a-5eba-4c2a-837a-ce8726720dcc")
+			(uuid "c2d56028-22c9-4746-afb2-6f9169123e63")
 		)
 		(pin "2"
-			(uuid "c95c3e3f-3a18-498b-bea6-fd5100c3be50")
+			(uuid "ecb34f10-5e1e-4333-b6fe-b155b63c97ae")
 		)
 		(instances
 			(project "keyboard_0"
@@ -14008,10 +14030,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc08e31c-ae92-47b3-b70f-876bb0fef840")
+			(uuid "2253611c-218e-49d4-adc7-767526f0ab3f")
 		)
 		(pin "2"
-			(uuid "d9e144a2-4931-4a48-ab08-a729c8cce7ef")
+			(uuid "caea2952-f306-469c-90ed-113f361829ee")
 		)
 		(instances
 			(project "keyboard_0"
@@ -14102,10 +14124,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d248355-21f2-43ed-bcfa-ba070ca67eff")
+			(uuid "3681d62e-5d08-4b18-98b7-96d41cecf955")
 		)
 		(pin "2"
-			(uuid "14f4ede0-8e17-40b2-962e-0a10ff0c131a")
+			(uuid "b130bd11-59e9-4428-9e19-e5278f07cab2")
 		)
 		(instances
 			(project "keyboard_0"
@@ -14196,10 +14218,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0246ea05-3c9d-4e25-a147-9e61b8740b55")
+			(uuid "461a2d41-a2f5-4137-8ba8-2ca6498d71d3")
 		)
 		(pin "2"
-			(uuid "dc4ee907-dd22-423c-a1da-9dd671c04659")
+			(uuid "4c203946-1156-4f8d-a210-06e533744532")
 		)
 		(instances
 			(project "keyboard_0"
@@ -14290,10 +14312,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "48fcc02f-ca13-46c4-8a8b-cbe5a599ce05")
+			(uuid "94c9abaf-d4e7-49ab-aee8-0363798c836d")
 		)
 		(pin "2"
-			(uuid "8c35e34d-fbba-4e03-a15c-9046dadb8c22")
+			(uuid "ef96fb14-a645-4057-85a4-4af74a987c77")
 		)
 		(instances
 			(project "keyboard_0"
@@ -14364,10 +14386,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "966db8c2-6142-442d-874e-fa7934088ebe")
+			(uuid "9b0ff5fc-4d00-4ee8-a705-419cbc996bd2")
 		)
 		(pin "2"
-			(uuid "1e2ddce9-f998-424a-874a-de4eff6e46b3")
+			(uuid "4d967f13-f67f-429b-9821-45728174ed92")
 		)
 		(instances
 			(project "keyboard_0"
