@@ -637,6 +637,10 @@
     [
       "ee9d5f39-4817-4c7c-ae2e-ba6d4b2b14ec",
       "Switches"
+    ],
+    [
+      "7b5e0803-2fef-472f-8f87-61836671eb48",
+      "LEDs"
     ]
   ],
   "text_variables": {}
