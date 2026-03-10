@@ -10329,8 +10329,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 77.47)
-		(size 50.165 36.83)
+		(at 161.925 73.025)
+		(size 64.135 42.545)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10343,9 +10343,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7b5e0803-2fef-472f-8f87-61836671eb48")
+		(uuid "9f85c4cc-a5f7-4a05-a4a6-3c2823743f56")
 		(property "Sheetname" "LEDs"
-			(at 165.1 76.7584 0)
+			(at 161.925 72.3134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,8 +10353,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "switches.kicad_sch"
-			(at 165.1 114.8846 0)
+		(property "Sheetfile" "led_matrix.kicad_sch"
+			(at 161.925 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
